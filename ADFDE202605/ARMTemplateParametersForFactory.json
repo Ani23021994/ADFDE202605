@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFDE202605"
+		},
+		"adlsgen2storageaccount_accountKey": {
+			"value": ""
+		},
+		"linkedservice_testfreedatabase_properties_typeProperties_server": {
+			"value": "testsqlde.database.windows.net"
+		},
+		"linkedservice_testfreedatabase_properties_typeProperties_database": {
+			"value": "testfreedatabase"
+		},
+		"linkedservice_testfreedatabase_properties_typeProperties_userName": {
+			"value": "admin123"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://dekeyvault123.vault.azure.net/"
+		},
+		"adlsgen2storageaccount_properties_typeProperties_url": {
+			"value": "https://test121221441.dfs.core.windows.net/"
+		}
+	}
+}
