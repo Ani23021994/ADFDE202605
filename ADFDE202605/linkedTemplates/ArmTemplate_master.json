@@ -11,6 +11,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'adlsgen2storageaccount'"
 		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"type": "string",
+			"defaultValue": "https://dekeyvault123.vault.azure.net/"
+		},
+		"adlsgen2storageaccount_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://test121221441.dfs.core.windows.net/"
+		},
 		"linkedservice_testfreedatabase_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "testsqlde.database.windows.net"
@@ -22,14 +30,6 @@
 		"linkedservice_testfreedatabase_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "admin123"
-		},
-		"AzureKeyVault1_properties_typeProperties_baseUrl": {
-			"type": "string",
-			"defaultValue": "https://dekeyvault123.vault.azure.net/"
-		},
-		"adlsgen2storageaccount_properties_typeProperties_url": {
-			"type": "string",
-			"defaultValue": "https://test121221441.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"type": "string",
