@@ -1,5 +1,5 @@
 {
-	"name": "Source_Dataset",
+	"name": "Source_Dataset_ADLSGEN2",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "adlsgen2storageaccount",

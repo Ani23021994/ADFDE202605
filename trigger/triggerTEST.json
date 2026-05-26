@@ -1,0 +1,25 @@
+{
+	"name": "triggerTEST",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "ADLSGEN2TOSQL",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 1,
+				"startTime": "2026-05-27T22:40:00",
+				"endTime": "2026-05-28T22:43:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
