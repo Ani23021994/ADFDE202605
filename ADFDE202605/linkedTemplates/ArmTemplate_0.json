@@ -122,7 +122,10 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileName": "test_data.csv",
+						"fileName": {
+							"value": "@concat('test_data_',pipeline().TriggerTime,'.csv')",
+							"type": "Expression"
+						},
 						"fileSystem": "dumpcontainer"
 					},
 					"columnDelimiter": ",",
