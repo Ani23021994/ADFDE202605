@@ -1,0 +1,16 @@
+{
+	"name": "Destination_Dataset_SQL_SERVER",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedservice_testfreedatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "summary_data"
+		}
+	}
+}
