@@ -1,0 +1,37 @@
+{
+	"name": "Source_Dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlsgen2storageaccount",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "part-00000-ff3dc5ad-12c7-4396-849e-f4ccf8d6ada2-c000.csv",
+				"folderPath": "RDBMS",
+				"fileSystem": "landingzone"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "CustomerName",
+				"type": "String"
+			},
+			{
+				"name": "Total Sales",
+				"type": "String"
+			},
+			{
+				"name": "Total Orders",
+				"type": "String"
+			}
+		]
+	}
+}
