@@ -1,0 +1,25 @@
+{
+	"name": "SqlServersource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedservice_testfreedatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "varchar"
+			},
+			{
+				"name": "names",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "test"
+		}
+	}
+}
